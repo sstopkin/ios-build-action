@@ -82,6 +82,10 @@ inputs:
     description: "Path for Swift Package Manager dependencies"
     required: false
     default: ""
+  xcargs:
+    description: "Use a custom xcargs parameters"
+    required: false
+    default: ""
 runs:
   using: "node12"
   main: "dist/index.js"
