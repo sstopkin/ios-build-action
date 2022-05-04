@@ -1,4 +1,4 @@
-name: "iOS Build Action"
+name: "iOS Build Action - RIG"
 description: "Build iOS project (.xcodeproj, .xcworkspace), and export ipa"
 inputs:
   p12-key-base64:
